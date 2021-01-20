@@ -1,0 +1,98 @@
+body {    
+    /* Full height */
+    height: 100%;
+      
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;  
+
+    border-radius: 0px;
+
+    border-style: solid;
+    border-color: rgb(54, 54, 54);
+    border-width: 10px;
+
+    color:rgb(54, 54, 54);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    text-align: left;
+    margin: 20px 0px 0px 150px;
+}
+
+input {
+    border: 0px;
+    width: 280px;
+    outline: none;
+    height: 10px;
+}
+
+textarea {
+    border: 0px;
+    width: 280px;
+    outline: none;
+    height: 100px;
+}
+
+.campo {
+    border: solid 1px #cccccc;
+    padding: 10px;
+}
+
+.button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+    height: 30px; 
+    width: 302px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+
+    padding: 0px 0px 0px 0px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.campo:focus {
+    border-color: rgb(54, 54, 54);
+    border-width: 3px;
+}
+input:hover {
+    border-color: rgb(54, 54, 54);
+    border-width: 3px;
+  }
+textarea:hover {
+    border-color: rgb(54, 54, 54);
+    border-width: 3px;
+  }
+
+/* PLACEHOLDER */
+  /* input::placeholder {
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+  } */
